@@ -1,0 +1,10 @@
+{
+    "private": true,
+    "description": "Pnpm and Nx monorepo example",
+    "scripts": {
+        "prepare": "echo \"installed!\""
+    },
+    "devDependencies": {
+        "jest": "^28.1.1"
+    }
+}
