@@ -2,9 +2,15 @@
     "private": true,
     "description": "Pnpm and Nx monorepo example",
     "scripts": {
-        "prepare": "echo \"installed!\""
+        "prepare": "echo \"installed!\"",
+        "nx": "nx",
+        "test:unit:all": "nx run-many --target=test:unit --all",
+        "test:unit:affected": "nx affected --target=test:unit"
     },
     "devDependencies": {
-        "jest": "^28.1.1"
+        "@nrwl/workspace": "^14.3.6",
+        "jest": "^28.1.1",
+        "nx": "^14.3.6",
+        "typescript": "^4.7.4"
     }
 }

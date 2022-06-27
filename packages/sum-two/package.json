@@ -3,6 +3,7 @@
     "version": "1.0.0-alpha.1",
     "description": "Sums two to a given number",
     "scripts": {
+        "build": "echo \"Built!\"",
         "test:unit": "jest"
     },
     "dependencies": {
