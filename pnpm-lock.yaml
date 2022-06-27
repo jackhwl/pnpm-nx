@@ -23,6 +23,14 @@ importers:
     dependencies:
       sum-one: link:../sum-one
 
+  test/sum-e2e:
+    specifiers:
+      sum-one: workspace:*
+      sum-two: workspace:*
+    dependencies:
+      sum-one: link:../../packages/sum-one
+      sum-two: link:../../packages/sum-two
+
 packages:
 
   /@ampproject/remapping/2.2.0:
