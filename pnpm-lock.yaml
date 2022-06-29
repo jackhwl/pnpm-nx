@@ -5,11 +5,13 @@ importers:
   .:
     specifiers:
       '@nrwl/workspace': ^14.3.6
+      cross-spawn: ^7.0.3
       jest: ^28.1.1
       nx: ^14.3.6
       typescript: ^4.7.4
     devDependencies:
       '@nrwl/workspace': 14.3.6_typescript@4.7.4
+      cross-spawn: 7.0.3
       jest: 28.1.1
       nx: 14.3.6
       typescript: 4.7.4
