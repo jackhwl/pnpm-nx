@@ -5,7 +5,8 @@
         "prepare": "echo \"installed!\"",
         "nx": "nx",
         "test:unit:all": "nx run-many --target=test:unit --all",
-        "test:unit:affected": "nx affected --target=test:unit"
+        "test:unit:affected": "nx affected --target=test:unit",
+        "build:all": "nx run-many --target=build --all"
     },
     "devDependencies": {
         "@nrwl/workspace": "^14.3.6",
