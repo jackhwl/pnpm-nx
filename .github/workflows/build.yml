@@ -106,5 +106,5 @@ jobs:
       - name: Test unit
         run: pnpm nx test:unit ${{ matrix.projectName }}
       # One job for each different project and node version
-      matrix:
-        node: ["14.19.0", "16.14.2", "17.2.0", "18.0.0"]
+    matrix:
+      node: ["14.19.0", "16.14.2", "17.2.0", "18.0.0"]
